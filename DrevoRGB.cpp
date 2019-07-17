@@ -52,10 +52,17 @@ int main(int argc, char* argv[]) {
 	}
 
 	unsigned int color[data_size];
-
-	memset(color, 0xff, sizeof(int) * data_size);
 	
 	/// write your color here !!!
+	// example > memset(color, 0xff, sizeof(int) * data_size); // all white
+	// every index is one color chan of a key 
+	// index 0 = r of first key 
+	// index 1 = g of first key 
+	// index 2 = b of first key 
+	// index 3 = r of second key 
+	// ...
+	// the color is int but only the bottom byte is used and the real controller only use 4 bits that are maped to 1 byte  
+	
 	
 	std::cout << "CKB75HWI::setLight:" << setLight(CKB75HWI_instance, color) << std::endl;
 
