@@ -1,4 +1,4 @@
-# POC Drevo Calibur light control
+# POC Drevo Calibur V1 light control
 <br>
 <h1>How to Install</h1>
 <p>first you need to install the official software from <a href=https://www.drevo.net/page/software>The Drevo software Site</a></p>
