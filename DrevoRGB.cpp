@@ -34,7 +34,7 @@ int main(int argc, char* argv[]) {
 		return 3;
 	}
 
-	// hacky way to init it on the stack 
+	// hacky way to init it on the HEAP 
 	void* f = new int[0xff];
 
 	void* CKB75HWI_instance = (void*)new_CKB75HWI(f);
