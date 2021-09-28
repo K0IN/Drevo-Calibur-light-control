@@ -4,8 +4,8 @@
 
 ## how to install 
 
-first you need to install the official software from [The Drevo software Site](https://www.drevo.net/page/software) (or use the [hosted version](https://mega.nz/file/vExzASrb#q6EHiK_nmsb4mB7z8xF2xIXvaSTDoOTTM6NGElUVkek))  
+First you need to install the official software from [The Drevo software Site](https://www.drevo.net/page/software) (or use the [hosted version](https://mega.nz/file/vExzASrb#q6EHiK_nmsb4mB7z8xF2xIXvaSTDoOTTM6NGElUVkek))  
 then locate the file "DREVO72HWI.dll" in your installation directory (default is C:\Program Files (x86)\DREVO\DREVO72)
-Copy the dll in the path of your executable
+and copy the dll in the path of your executable
 
 You can find a example executable in the [releases](https://github.com/K0IN/Drevo-Calibur-light-control/releases/tag/001) that will set all keys to white
